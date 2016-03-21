@@ -9,6 +9,7 @@ function main(){
         console.log("获取不到canvas元素对象!");
         return;
     }
+
     //获取绘图上下文
     var ctx = canvas.getContext("2d");
     //fillStyle属性设置或返回用于填充绘画的颜色、渐变或模式
