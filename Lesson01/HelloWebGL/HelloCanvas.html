@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Clear Canvas</title>
 </head>
-<body>
+<body onload="main()">
 
+    <canvas id="webgl" width="400" height="400">
+        抱歉,您的浏览器不支持canvas!
+    </canvas>
+
+    <script src="../../Lib/webgl-utils.js"></script>
+    <script src="../../Lib/webgl-debug.js"></script>
+    <script src="../../Lib/cuon-utils.js"></script>
+
+    <script src="HelloCanvas.js"></script>
 </body>
 </html>
